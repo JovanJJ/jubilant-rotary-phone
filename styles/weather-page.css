@@ -1,0 +1,104 @@
+
+.weatherChild{
+ background: #000000;
+background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(199, 149, 87, 1) 50%, rgba(0, 0, 0, 1) 85%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height:900px ;
+}
+
+
+.cityInput{
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 2rem;
+  display: block;
+  text-align: center;
+  border: none;
+  border-radius: 30px;
+  background-color: rgb(34, 32, 28);
+  color: wheat;
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
+}
+
+.cityInput:focus{
+  outline: none;
+}
+
+.submit{
+  padding: 20px 90px 20px 90px;
+  font-size: 20px;
+  border-radius: 40px;
+  border-style: none;
+  background-color: rgb(34, 32, 28);
+  color: wheat;
+  margin-left: 85px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
+}
+
+.submit:active{
+  background-color: rgb(40, 40, 40);
+}
+
+.cart{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+  height: 700px;
+  border-radius: 30px;
+  border: 1px;
+  border-style: solid;
+  border-color: black;
+  background: linear-gradient(180deg, hsl(210, 100%, 75%), orange);
+  box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.cityDisplay{
+  font-size: 40px;
+}
+
+.temperatureDisplay{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.humidityDisplay{
+  font-size: 30px;margin-bottom: 20px;
+}
+
+.descriptionDisplay{
+  font-size: 20px;
+}
+
+.emojiDisplay{
+  font-size: 80px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.polutionInfo{
+  font-size: 35px;
+}
+
+.polutionEmoji{
+  font-size: 80px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.polutionDescription{
+  font-size: 20px;
+}
+
+
+
+

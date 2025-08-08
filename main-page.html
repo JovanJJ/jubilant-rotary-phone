@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Welcome</title>
+    <link rel="stylesheet" href="styles/main-page.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+          integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+          crossorigin=""/>
+    <link rel="stylesheet" href="styles/weather-page.css">
+  </head>
+
+  <body>
+    
+    <header>
+      <div class="header">
+        <div class="leftSection">
+          <div class="arrowImage">
+            <img class="arrowPicture" src="images/7444667.png">
+          </div>
+        </div>
+
+        <div class="middleSection">
+
+        </div>
+
+        <div class="rightSection">
+
+        </div>
+      </div>
+
+      <div class="downArrowHidden">
+        <a href="main-page.html">Home</a>
+        <a href="#">Record Running</a>
+        <a href="weather-page.html">Weather</a>
+        
+      </div>
+    </header>
+
+    <main>
+      <div class="introText">
+        <h1>Set yor new goals.</h1>
+        <h1>Record your traning.</h1>
+        <h1>Track your progress.</h1>
+      </div>
+
+      <div class="recordTraningText">
+        <h2>You can record your trening and get info such as running pace, distance walked and much more.</h2>
+      </div>
+
+      
+
+      <div class="backgroundImage">
+        <img class="backgroundPicture" src="images/background.jpg">
+      </div>
+
+      <div class="mapParent">
+        <div id="map"></div>
+      </div>
+
+      <div class="weatherParent">
+        <div class="weatherChild">
+          <form class="weatherForm">
+            <input type="text" class="cityInput" placeholder="City ?">
+            <button type="submit" class="submit">submit</button>
+          </form>
+
+          <div class="cart">
+          
+          </div>
+        </div>
+      </div>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+
+     <script src="scripts/main-page.js"></script>
+
+     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+              integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+              crossorigin=""></script>
+
+     <script src="scripts/record.js"></script>
+     
+     <script src="scripts/weather-page.js"></script>
+  </body>
+</html>
