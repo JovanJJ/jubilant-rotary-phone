@@ -1,4 +1,4 @@
-const apiKey = '43fc470b393cd76f62775887d2d41dac';
+const apiKey = '';
 const inputElement = document.querySelector('.cityInput');
 const cart = document.querySelector('.cart');
 const countryCode = 'RS';
@@ -93,4 +93,5 @@ function weatherEmoji(weatherId){
     return "☁️";
   }
 }
+
 
